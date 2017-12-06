@@ -1,0 +1,138 @@
+body {
+    /*background: url("/images/body_bg.jpg")  no-repeat top center !important;*/
+    background-color: #d14b04 !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+a:hover {
+    text-decoration: underline; !important;
+}
+
+/* 把内容主体改为 1000px */
+#container {
+    width: 1000px !important;
+}
+
+/* 把头部改为 fixed */
+#header {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    height: 50px;
+    background-color: #fff;
+    padding: 0 !important;
+}
+
+#columns {
+    margin-top: 50px;
+    background-color: rgba(111,42,0,0.25);
+}
+
+/* 发推 */
+#phupdate .textarea-wrapper textarea {
+    border-color: #ccc !important;
+}
+
+#phupdate .textarea-wrapper textarea:focus {
+    border-color: #7dc6dd !important;
+}
+
+/* 新消息提醒 */
+#timeline-notification {
+    text-align: center;
+}
+
+td#main {
+    background: none !important;
+}
+
+#stream li, #stream .wa li {
+    background-color: #fff;
+    margin-bottom: 10px;
+    border-radius: 2px;
+}
+
+#stream .wa li {
+    width: 602px !important;
+    padding: 20px 50px 20px 72px !important;
+}
+
+/* 推文内容 */
+#stream li span.content {
+    font-size: 14px;
+    line-height: 22px;
+}
+
+
+/* 微博正文的用户昵称 */
+#stream.message li a.author {
+    float: inherit !important;
+    display: block;
+    font-size: 14px;
+    color: #333;
+    font-weight: 700;
+}
+
+#stream.message li a.author:hover {
+    color: #d14b04 !important;
+    background-color: transparent !important;
+}
+
+/* 微博正文的用户头像 */
+#stream.message li a.avatar img {
+    border-radius: 50%
+}
+
+#stream li a.avatar {
+    margin-right: 10px;
+    margin-left: -42px !important;
+}
+
+/* 右侧 */
+#sidebar {
+    background: #fff !important;
+    border-radius: 2px !important;
+}
+
+#user_stats a {
+    text-align: center;
+}
+
+#user_stats a:hover .count{
+    color: #d14b04 !important;
+}
+
+#user_stats a:hover .label{
+    text-decoration: none !important;
+}
+
+#user_stats .label {
+    font-size: 12px;
+    color: #919191;
+}
+
+/* 更多和回到顶部 */
+.pagination .more-left {
+    width: 628px !important;
+    background: #fff !important;
+    border-radius: 2px !important;
+}
+
+.pagination .more {
+    background: #fff !important;
+    border-radius: 2px !important;
+}
+
+/* 底部 */
+.ui-roundedbox-corner {
+    background: #fff !important;
+    border-radius: 2px !important;
+}
+
+#footer .ui-roundedbox-content {
+    width: 995px !important;
+}
