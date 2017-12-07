@@ -46,6 +46,10 @@ a:hover {
     text-align: center;
 }
 
+#timeline-notification a {
+    font-size: 13px;
+}
+
 td#main {
     background: none !important;
 }
@@ -94,8 +98,19 @@ td#main {
 
 /* 右侧 */
 #sidebar {
-    background: #fff !important;
+    background: transparent !important;
     border-radius: 2px !important;
+    border-left: none !important;
+}
+
+#goodapp {
+    background: #fff !important;
+}
+
+#user_stats {
+    width: 204px !important;
+    background: #fff !important;
+    border-radius: 2px;
 }
 
 #user_stats a {
@@ -110,9 +125,146 @@ td#main {
     text-decoration: none !important;
 }
 
+a:hover .label {
+    border-bottom: none !important;
+}
+
 #user_stats .label {
     font-size: 12px;
     color: #919191;
+}
+
+/* app 推荐 */
+#goodapp {
+    border-radius: 2px;
+    -webkit-border-radius: 2px !important;
+}
+
+/* 消息 */
+#sidebar #navtabs {
+    width: 204px;
+    margin-left: 0;
+    background: #fff;
+    border-radius: 2px;
+}
+
+#navtabs li a {
+    font-weight: normal !important;
+    color: #333 !important;
+}
+
+#navtabs li a:hover {
+    color: #d14b04 !important;
+}
+
+#sidebar .stabs li.current a {
+    font-weight: bold !important;
+}
+
+/* 搜索 */
+#searchr {
+    margin-top: 9px !important;
+}
+
+#searchr-input {
+    height: 18px !important;
+    border:  none !important;
+    -webkit-border-top-left-radius: 2px !important;
+    -webkit-border-bottom-left-radius: 2px !important;
+    -webkit-border-top-right-radius: none !important;
+    -webkit-border-bottom-right-radius: none !important;
+}
+
+#searchr-submit {
+    border:  none !important;
+    border-left: 1px solid #bbb !important;
+    background: #fff !important;
+    -webkit-border-top-left-radius: none !important;
+    -webkit-border-bottom-left-radius: none !important;
+    -webkit-border-top-right-radius: 2px !important;
+    -webkit-border-bottom-right-radius: 2px !important;
+}
+
+/* 热门话题 */
+#trendtabs {
+    width: 204px;
+    background: #fff;
+    border-radius: 2px;
+}
+
+#sidebar .stabs {
+    margin-left: 0 !important;
+}
+
+#sidebar .colltab h2 {
+    padding: 5px 0;
+    border-bottom: 1px solid #f1d1d1;
+    margin-left: 0 !important;
+    text-indent: 15px;
+}
+
+#sidebar .colltab b {
+    top: 9px !important;
+}
+
+/* 关注的人 */
+#friends {
+    width: 204px !important;
+    background: #fff;
+    border-radius: 2px;
+    padding-bottom: 10px;
+}
+
+.alist li {
+    float: inherit !important;
+    text-indent: 15px;
+    margin-bottom: 10px !important;
+}
+
+.alist li a {
+    color: #333;
+    float: inherit !important;
+}
+
+.alist li a:hover {
+    color: #d14b04 !important;
+}
+
+/* 关注的人的头像 */
+.alist li a img {
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+/* 关注的人的昵称 */
+.alist li a span {
+    display: inline !important;
+}
+
+/* 邀请朋友加入 */
+#sidebar .sect {
+    width: 204px;
+    border-top: none !important;
+    margin-left: 0 !important;
+    background: #fff;
+    border-radius: 2px;
+    padding-left: 0 !important;
+    padding-bottom: 10px !important;
+}
+
+#sidebar .sect h2 {
+    text-indent: 15px;
+}
+
+#sidebar .sect textarea {
+    resize: none;
+    border: 1px solid #bbb;
+    width: 160px !important;
+}
+
+#sidebar .sect p {
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 /* 更多和回到顶部 */
